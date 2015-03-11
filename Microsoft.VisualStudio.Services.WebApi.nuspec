@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nuget-bot.Microsoft.VisualStudio.Services.WebApi</id>
+    <version>12.0.21005.1</version>
+    <title>nuget-bot.Microsoft.VisualStudio.Services.WebApi</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.services.webapi.aspx</projectUrl>
+    <licenseUrl>https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.services.webapi.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft.VisualStudio.Services.WebApi</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft VisualStudio Services WebApi nuget-bot</tags>
+    <dependencies>
+		<group>
+			<dependency id="nuget-bot.Microsoft.VisualStudio.Services.Common" version="12.0.21005.1" />
+		</group>
+	</dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="**\Microsoft.VisualStudio.Services.WebApi.dll" target="lib" /> 
+  </files>
+</package>
